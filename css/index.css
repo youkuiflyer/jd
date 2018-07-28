@@ -1,0 +1,581 @@
+.box{
+    background-color: #F0F3EF;
+}
+.banner-nav{
+    width: 100%;
+    height: 110px;
+}
+ /*top banner start*/
+.top-banner{
+    z-index: 30px;
+    width: 100%;
+    height: 80px;
+    background-color: #5BC9E7;
+    float: left;
+}
+.top-banner a {
+    display: block;
+    width: 100%;
+    height: 80px;
+    background: url(//img10.360buyimg.com/da/jfs/t20707/359/488380974/90409/3a362deb/5b48601bNff996402.jpg) no-repeat 50% 0;
+    text-align: center;
+}
+.top-banner i {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    right: 26.5%;
+    top: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFF;
+    background: rgb(45,45,45);
+    opacity: .3;
+    width: 20px;
+    text-align: center;
+    line-height: 20px;
+
+
+}
+
+/* top banner end */
+
+
+/*navigation bar start*/
+.top-nav{
+    z-index: 30;
+    width: 100%;
+    height: 30px;
+    background-color: #E3E4E5;
+    float: left;
+}
+.top-nav > div {
+    display: block;
+    text-align: center;
+}
+
+.city li{
+    width: 58px;
+    height: 30px;
+    margin-left: 200px;
+    text-align: center;
+    line-height: 28px;
+}
+
+
+
+.user-nav li {
+    display: block;
+    float: left;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: center;
+    height: 30px;
+    line-height: 28px;
+    padding: 0 2px 0 2px;
+}
+
+
+.left-icons {
+    position: relative;
+    left: 0;
+    margin-left: 3px;
+    top: 8px;
+    margin-right: 12px;
+}
+
+.left-icons i{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    overflow: hidden;
+    top: -4px;
+}
+
+.left-icons i s {
+    font-size: 13px;
+    position: absolute;
+    right: 0px;
+    top: -14px;
+}
+
+/*phone item start */
+.phone-item {
+    display: none ;
+    width: 155px;
+    height: 303px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    position: absolute;
+    margin: 30px 0 0 1035px;
+}
+/*phone item end */
+/*web navigation list  start  */
+.web-nav-list {
+    display: none ;
+    width: 1190px;
+    height: 150px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    position: absolute;
+    margin: 30px 0 0 0;
+    z-index: 3;
+}
+/*web navigation list end */
+
+ /*customer service list start */
+.customer-service-list {
+    display: none ;
+    width: 155px;
+    height: 303px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    position: absolute;
+    margin: 30px 0 0 884px;
+}
+/*customer service list end */
+
+
+
+/*enterprise item list start */
+.enterprise-item-list {
+    display: none ;
+    width: 155px;
+    height: 73px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    position: absolute;
+    margin: 30px 0 0 890px;
+}
+
+.enterprise-item-list > div {
+    float: left;
+    margin: 12px 12px 0 15px;
+}
+
+/*enterprise item list start */
+
+
+/*city list start*/
+.city li:hover {
+    background: #fff;
+}
+
+.city-item-list {
+    display: none ;
+    width: 322px;
+    height: 200px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    position: absolute;
+    margin: 30px 0 0 200px;
+}
+.city-item-list div {
+    display: block;
+    line-height: 24px;
+    float: left;
+    width: 60px;
+
+}
+.city-item-list city-item{
+    width: 60px;
+    float: left;
+    padding: 2px;
+}
+/*city list end */
+
+
+/*my jd drop-down list start start*/
+.my-item-list {
+    display: none ;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    position: relative;
+    top: 30px;
+    left: 740px;
+    width: 280px;
+    height: 200px;
+}
+
+
+.my-item-list > div {
+    float: left;
+    width: 100%;
+    display: block;
+    text-align: center;
+    height: 112px;
+    margin-left: 58px;
+}
+
+draw-line {
+    width: 100% !important;
+    border-bottom: 1px solid #000000 !important;
+}
+
+.my-item  {
+    display: block;
+    width: 120px;
+    height: 24px;
+    float: left;
+    text-align: center;
+}
+
+.my-item  a {
+    float: left;
+    text-align: initial;
+}
+
+/*my jd drop-down list start end*/
+
+
+.login-register {
+
+}
+
+
+
+
+/*logo  search nav start */
+.context-box{
+    z-index: 11;
+    height: 140px;
+    height: 900px;
+    background-color: #ededed;
+}
+.context-box > div {
+    display: block;
+    float: left;
+}
+
+.context-box .logo{
+    z-index: 2;
+    left: 0;
+    top: -30px;
+    width: 190px;
+    height: 170px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    background-color: #fff;
+    border-bottom: 1px solid #ededed;
+    position: relative !important;
+    overflow: hidden;
+
+}
+
+.search-nav {
+    height: 150px;
+    width: 999px;
+
+}
+
+.search-nav > div {
+    display: block;
+    float: left;
+}
+
+.search {
+    width: 100%;
+    height: 75px;
+    margin-top: 20px;
+}
+
+.search > div {
+    display: block;
+    float: left;
+}
+
+.input-site {
+    margin-left: 100px;
+}
+
+.input-site input {
+    display: block;
+    float: left;
+    left: 0;
+    width: 510px;
+    height: 35px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #989898;
+}
+.input-site button {
+    display: block;
+    float: left;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    right: 0;
+    width: 50px;
+    height: 35px;
+    line-height: 35px;
+    border: none;
+    background-color: #f10215;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    cursor:pointer
+}
+
+.shopping-cart {
+    width: 190px;
+    height: 36px;
+    background-color: #fff;
+    margin-left: 30px;
+}
+.shopping-cart i , .shopping-cart a ,.shopping-cart span {
+    text-align: center;
+    margin-top: 8px;
+}
+.shopping-cart i {
+    float: left;
+    width: 25px;
+    height: 20px;
+    background: url("../images/index/tel.png") no-repeat 0 -58px;
+    margin-left: 38px;
+
+}
+.shopping-cart a {
+    display: block;
+    float: left;
+
+}
+.shopping-cart span {
+    display: block;
+    float: left;
+    width: 14px;
+    height: 14px;
+    background-color: red;
+    color: #ededed;
+    margin-left: 5px;
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 1px;
+    margin-top: 5px;
+    border-radius: 193px;
+    -moz-border-radius: 25px;
+}
+
+.search-link {
+    display: block;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.search-link ul li {
+    display: block;
+    float: left;
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+
+.nav {
+    width: 100%;
+    height: 60px;
+}
+.nav ul li {
+    display: block;
+    float: left;
+    margin-left: 24px;
+    text-align: center;
+}
+
+.nav ul li a {
+    height: 40px;
+    line-height: 56px;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.mall-qr-code {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin: 0 0 0 1118px;
+}
+
+.mall-qr-code img {
+    width: 70px;
+    width: 70px;
+}
+
+.goods-theme {
+    height: 40px;
+    width: 190px;
+    position: absolute;
+    margin: 91px 0 0 994px;
+
+}
+
+.goods-theme a {
+    background: url("../images/index/apple_goods.png")center no-repeat;
+    width: 190px;
+    height: 40px;
+    display: block;
+}
+/*logo  search nav end */
+
+
+
+/*The first banner and classify part show start*/
+.classify-banner {
+    margin-top: -28px;
+}
+.classify-banner > div{
+
+    float: left;
+    margin-left: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+.goods-classify {
+    display: block;
+    width: 190px;
+    height: 470px;
+    margin-left: 0px !important;
+
+}
+.goods-classify ul {
+    display: block;
+    width: 190px;
+    margin: 10px auto;
+}
+
+.goods-classify ul li {
+    display: block;
+    float: left;
+    line-height: 24px;
+    width: 190px;
+
+}
+.goods-classify ul li a {
+    display: block;
+    float: left;
+    width: 190px;
+    text-align: center;
+}
+
+
+.goods-classify ul li a:hover{
+    background-color: #d9d9d9;
+}
+
+.goods-classify-detail {
+    position: absolute;
+    width: 990px;
+    height: 470px;
+    margin-left: 200px !important;
+    display: block;
+}
+
+.goods-classify-detail > div {
+    text-align: center;
+    margin-top: 10px;
+}
+.goods-classify-detail-left {
+    display: block;
+    float: left !important;
+    background-color: #ededed;
+    width: 780px;
+    height: 450px;
+}
+.classify-detail-top {
+    width: 100%;
+    height: 24px;
+    margin-top: 10px;
+}
+
+.classify-detail-top > div{
+    height: 24px;
+    background-color: #333333;
+    display: block;
+    float: left;
+    margin: 0 0 0 10px;
+}
+.classify-detail-top div a {
+    height: 18px;
+    background-color: #333333;
+    color: #ffffff;
+    font-weight: bold !important;
+    text-align: center;
+    display: block;
+    float: left;
+    margin-top: 3px;
+    padding: 0 6px 0 6px;
+}
+
+.classify-detail-top div  i {
+    height: 18px;
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    float: left;
+    margin-top: 3px;
+    padding: 0 6px 0 0;
+}
+
+.goods-classify-detail-right {
+    display: block;
+    float: right !important;
+    width: 189px;
+    height: 450px;
+    background-color: #ededed;
+}
+
+
+
+.goods-banner {
+    display: block;
+    width: 590px;
+    height: 470px;
+    background-color: #cccccc;
+}
+.goods-recommend {
+    display: block;
+    width: 190px;
+    height: 470px;
+    background-color: #ededed;
+}
+.user-usual-doing {
+    display: block;
+    background-color: #cccccc;
+    width: 190px;
+    height: 480px;
+}
+
+.goods-theme-left {
+    display: block;
+    position: absolute;
+    width: 250px;
+    height: 470px;
+}
+
+.goods-theme-left a {
+    background: url("../images/index/goods_theme_left.png")center no-repeat;
+    width: 250px;
+    height: 470px;
+    display: block;
+}
+
+.goods-theme-right {
+
+    position: absolute;
+    width: 790px;
+    height: 470px;
+    margin-left: 0px !important;
+    display: none;
+}
+
+.goods-theme-right a {
+    background: url("../images/index/goods_theme_right.jpg")center no-repeat;
+    width: 790px;
+    height: 470px;
+    display: block;
+}
+
+
+/*The first banner and classify part show end*/
+
+
